@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'VCR OSD Mono', monospace;
+    font-weight: lighter;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111111;
+    color: #fff;
+}
+a {
+    padding: 15px;
+    border-radius: 13px;
+    background: rgba(254, 174, 0, 1);
+    color: #fff;
+    border: solid 3px #fff;
+    cursor: pointer;
+    margin: 2px;
+    text-align: left;
+    font-size: 15px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+hr{
+    width: 99.5%;
+    border: 1px solid #fff;
+    margin: 15px 0;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+.right-side{
+    text-align: right;
+    font-size: 30px;
+}
+.menu-button{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.white-button{
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+.orange-button{
+    border: none;
+}
+button {
+    padding: 15px;
+    border-radius: 13px;
+    background: rgba(254, 174, 0, 1);
+    color: #fff;
+    border: solid 3px #fff;
+    cursor: pointer;
+    margin: 2px;
+    text-align: left;
+    font-size: 15px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+button:hover{
+    border: solid 3px red;
+    transition: 0.5s;
+}
