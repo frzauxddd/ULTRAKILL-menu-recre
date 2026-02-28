@@ -1,5 +1,5 @@
 # ULTRAKILL-menu-recre
 
-![Icon](./readme/.png)
+![Icon](./readme/UK.png)
 
 Recreation of main menu from ultrakill
